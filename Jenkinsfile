@@ -39,7 +39,7 @@ pipeline {
                     echo 'Code deployed to Production.'
                 }
 
-                faulure {
+                failure {
                     echo 'Deployment failed'
                 }
             }
